@@ -4,10 +4,10 @@ var genero = conexao.Schema({
     nome:{
         type:String
     },
-    livros:[
+    animes:[
         {
             type:conexao.Schema.Types.ObjectId,
-            ref:"livro"
+            ref:"anime"
         }
     ]
 })
